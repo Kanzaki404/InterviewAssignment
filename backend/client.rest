@@ -1,0 +1,10 @@
+GET http://localhost:5000/api/
+###
+POST http://localhost:5000/api/getSize
+content-type: application/json
+
+{
+    "age": "1",
+    "height": "10",
+    "type": "F"
+}
